@@ -23,6 +23,11 @@
 > - [exploitdb](https://github.com/offensive-security/exploitdb)
 > - [Exploit-Street](https://github.com/MzHmO/Exploit-Street)
 
+- [2025](#2025)
+  - [CVE-2025-21333](##CVE-2025-21333)
+  - [CVE-2025-21420](##CVE-2025-21420)
+  - [CVE-2025-21293](##CVE-2025-21293)
+
 - [2024](#2024)
   - [CVE-2024-38100](#cve-2024-38100)
   - [CVE-2024-38080](#cve-2024-38080)
@@ -245,11 +250,38 @@
 - [2000](#2000)
   - [CVE-2000-0979](#cve-2000-0979)
 
+# 2025
+
+## CVE-2025-21333
+
+>Windows Hyper-V NT Kernel Integration VSP Elevation of Privilege Vulnerability
+
+- **PoC**
+  - https://github.com/MrAle98/CVE-2025-21333-POC :  ![starts](https://img.shields.io/github/stars/MrAle98/CVE-2025-21333-POC.svg) ![forks](https://img.shields.io/github/forks/MrAle98/CVE-2025-21333-POC.svg)
+
+## CVE-2025-21420
+
+> Windows Disk Cleanup Tool Elevation of Privilege Vulnerability
+
+- **PoC**
+  - https://github.com/Network-Sec/CVE-2025-21420-PoC : [![starts](https://camo.githubusercontent.com/5b3b842d32299682a7da98a9b4ddf1f90eba2707e4e1f687ee59bc579c38a9c2/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f4e6574776f726b2d5365632f4356452d323032352d32313432302d506f432e737667)](https://camo.githubusercontent.com/5b3b842d32299682a7da98a9b4ddf1f90eba2707e4e1f687ee59bc579c38a9c2/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f4e6574776f726b2d5365632f4356452d323032352d32313432302d506f432e737667) [![forks](https://camo.githubusercontent.com/e48cd60a3e94bd2b5684fe208306a73fc96089a5e995abede1cf72d6fef33d86/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f666f726b732f4e6574776f726b2d5365632f4356452d323032352d32313432302d506f432e737667)](https://camo.githubusercontent.com/e48cd60a3e94bd2b5684fe208306a73fc96089a5e995abede1cf72d6fef33d86/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f666f726b732f4e6574776f726b2d5365632f4356452d323032352d32313432302d506f432e737667)
+  - https://github.com/toxy4ny/edge-maradeur : [![starts](https://camo.githubusercontent.com/0c624271bd9a1c20dbc64c9e621939b509b51dad8127793d13bc0ee534b6bf4e/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f746f7879346e792f656467652d6d617261646575722e737667)](https://camo.githubusercontent.com/0c624271bd9a1c20dbc64c9e621939b509b51dad8127793d13bc0ee534b6bf4e/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f746f7879346e792f656467652d6d617261646575722e737667) [![forks](https://camo.githubusercontent.com/eb453f075d81f5b67b21e6b46a8397533c3379a3cd4d832982e61e7d7b05a781/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f666f726b732f746f7879346e792f656467652d6d617261646575722e737667)](https://camo.githubusercontent.com/eb453f075d81f5b67b21e6b46a8397533c3379a3cd4d832982e61e7d7b05a781/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f666f726b732f746f7879346e792f656467652d6d617261646575722e737667)
+
+## CVE-2025-21293
+
+> Active Directory Domain Services Elevation of Privilege Vulnerability
+
+- **Analyse**
+  - https://birkep.github.io/posts/Windows-LPE/
+- **PoC**
+  - https://github.com/MzHmO/Exploit-Street/tree/main/2025/CVE-2025-21293
+
 # 2024
+
 ## CVE-2024-38100
 
 > Windows File Explorer Elevation of Privilege Vulnerability
-  
+
 - **Exp**
   - [https://github.com/MzHmO/LeakedWallpaper](https://github.com/MzHmO/LeakedWallpaper) :  ![starts](https://img.shields.io/github/stars/MzHmO/LeakedWallpaper.svg) ![forks](https://img.shields.io/github/forks/MzHmO/LeakedWallpaper.svg)
   - [https://github.com/Florian-Hoth/CVE-2024-38100-RCE-POC](https://github.com/Florian-Hoth/CVE-2024-38100-RCE-POC) :  ![starts](https://img.shields.io/github/stars/Florian-Hoth/CVE-2024-38100-RCE-POC.svg) ![forks](https://img.shields.io/github/forks/Florian-Hoth/CVE-2024-38100-RCE-POC.svg)
@@ -259,7 +291,7 @@
 > Windows Hyper-V Elevation of Privilege Vulnerability
 
 - **PoC**
-  - - [https://github.com/pwndorei/CVE-2024-38080](https://github.com/pwndorei/CVE-2024-38080) :  ![starts](https://img.shields.io/github/stars/pwndorei/CVE-2024-38080.svg) ![forks](https://img.shields.io/github/forks/pwndorei/CVE-2024-38080.svg)
+  - [https://github.com/pwndorei/CVE-2024-38080](https://github.com/pwndorei/CVE-2024-38080) :  ![starts](https://img.shields.io/github/stars/pwndorei/CVE-2024-38080.svg) ![forks](https://img.shields.io/github/forks/pwndorei/CVE-2024-38080.svg)
 
 ## CVE-2024-38054
 
