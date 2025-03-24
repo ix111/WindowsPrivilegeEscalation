@@ -27,7 +27,8 @@
   - [CVE-2025-21333](#CVE-2025-21333)
   - [CVE-2025-21420](#CVE-2025-21420)
   - [CVE-2025-21293](#CVE-2025-21293)
-
+  - [CVE-2025-24054](#CVE-2025-24054)
+  
 - [2024](#2024)
   - [CVE-2024-38100](#cve-2024-38100)
   - [CVE-2024-38080](#cve-2024-38080)
@@ -275,6 +276,16 @@
   - https://birkep.github.io/posts/Windows-LPE/
 - **PoC**
   - https://github.com/MzHmO/Exploit-Street/tree/main/2025/CVE-2025-21293
+
+## CVE-2025-24054
+
+> NTLM Hash Leak via RAR/ZIP Extraction and .library-ms File
+
+- **Analyse**
+  - https://cti.monster/blog/2025/03/18/CVE-2025-24071.html
+
+- **PoC**
+  - https://github.com/0x6rss/CVE-2025-24071_PoC
 
 # 2024
 
